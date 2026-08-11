@@ -1,0 +1,74 @@
+:root {
+    --cream: #faf6f0;
+    --sage: #b7c4ad;
+    --blush: #e8c4c4;
+    --ink: #3f4a3c;
+    --gold: #c9a86a;
+    --rose: #a86b6b;
+}
+
+
+.hero {
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(63, 74, 60, 0.4), rgba(63, 74, 60, 0.4)), url("wedding-website/images/pexels-yulianaphoto-9197335.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h1 {
+    color: var(--cream);
+    font-size: 5rem;
+    font-family: Italianno, cursive;
+}
+
+.hero p {
+    color: var(--cream);
+    font-size: 3rem;
+}
+
+p[lang="es"] {
+    font-style: italic;
+}
+
+body {
+    max-width: none; margin: 0;
+    background-color: var(--cream);
+    color: var(--ink);
+}
+
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+h2 {
+    font-family: JosefinSans, sans-serif;
+    font-size: 1.5rem;
+}
+
+footer {
+    background-color: var(--cream);
+    margin: 2rem;
+    padding: 1rem;
+    a {
+        color: var(--ink);
+        display: block;
+        margin-bottom: 1rem;
+        text-decoration-color: var(--gold);
+    }
+}
+
+section {
+    background-color: white;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border-radius: 12px;
+    border-top: 3px solid var(--sage);
+}
