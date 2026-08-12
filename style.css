@@ -21,10 +21,12 @@
     padding-bottom: 5vh;
 }
 
-.hero h1 {
-    color: var(--cream);
-    font-size: 5rem;
-    font-family: Italianno, cursive;
+@media (max-width: 600px) {
+    .hero h1 {
+        color: var(--cream);
+        font-size: 3rem;
+        font-family: Italianno, cursive;
+    }
 }
 
 .hero p {
