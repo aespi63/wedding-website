@@ -8,8 +8,8 @@ Created as both a real guest-facing site and a hands on web development project.
 
 ## Features
 
-- [ ] Home page with event overview
-- [ ] Event details (schedule, venue, directions)
+- [1 ] Home page with event overview
+- [1 ] Event details (schedule, venue, directions)
 - [ ] RSVP section
 - [ ] Photo gallery
 - [ ] Mobile-first responsive design
