@@ -10,14 +10,15 @@
 
 .hero {
     min-height: 100vh;
-    background-image: linear-gradient(rgba(63, 74, 60, 0.4), rgba(63, 74, 60, 0.4)), url("/Users/adria/Desktop/Personal Project/images/pexels-yulianaphoto-9197335.jpg");
+    background-image: linear-gradient(rgba(63, 74, 60, 0.4), rgba(63, 74, 60, 0.4)), url("images/pexels-yulianaphoto-9197335.jpg");
     background-size: cover;
     background-position: center;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     text-align: center;
+    padding-bottom: 10vh;
 }
 
 .hero h1 {
@@ -28,7 +29,7 @@
 
 .hero p {
     color: var(--cream);
-    font-size: 3rem;
+    font-size: 1.5rem;
 }
 
 p[lang="es"] {
@@ -36,6 +37,7 @@ p[lang="es"] {
 }
 
 body {
+    font-family: Georgia, serif;
     max-width: none; margin: 0;
     background-color: var(--cream);
     color: var(--ink);
@@ -43,12 +45,12 @@ body {
 
 .container {
     max-width: 800px;
-    margin: 0 auto;
-    padding: 0 2rem;
+    margin: 0 auto 1.5rem auto;
+    padding: 2rem;
 }
 
 h2 {
-    font-family: JosefinSans, sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     font-size: 1.5rem;
 }
 
@@ -70,9 +72,7 @@ footer a {
 
 section {
     background-color: white;
-    margin-bottom: 1rem;
-    padding: 1rem;
     border-radius: 12px;
-    border-top: 3px solid var(--sage);
+    border-top: 2px solid var(--sage);
     text-align: center;
 }
