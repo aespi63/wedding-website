@@ -29,6 +29,12 @@
     }
 }
 
+.hero h1 {
+        color: var(--cream);
+        font-size: 3rem;
+        font-family: Italianno, cursive;
+    }
+
 .hero p {
     color: var(--cream);
     font-size: 1.5rem;
